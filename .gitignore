@@ -1,0 +1,11 @@
+# local .terraform dir
+.terraform/*
+*private-key/terraform-eks.pem
+
+# tf state files 
+*.tfstate
+*.tfstate.*
+
+# tf variables files, may include sensitve data 
+*.tfvars 
+*variables.tf
